@@ -1,0 +1,46 @@
+{
+    "resorts": [
+        {
+            "name": "Birmingham",
+            "visitorsOnSite": {
+                "now": 6870,
+                "yesterday": 5801
+            }
+        },
+        {
+            "name": "Tokyo",
+            "visitorsOnSite": {
+                "now": 2870,
+                "yesterday": 8091
+            }
+        },
+        {
+            "name": "Paris",
+            "visitorsOnSite": {
+                "now": 1043,
+                "yesterday": 2045
+            }
+        },
+        {
+            "name": "Denmark",
+            "visitorsOnSite": {
+                "now": 4050,
+                "yesterday": 4090
+            }
+        },
+        {
+            "name": "Florida",
+            "visitorsOnSite": {
+                "now": 7034,
+                "yesterday": 6900
+            }
+        },
+        {
+            "name": "North Pole",
+            "visitorsOnSite": {
+                "now": 10432,
+                "yesterday": 9102
+            }
+        }
+    ]
+}

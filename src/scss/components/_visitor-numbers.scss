@@ -1,0 +1,66 @@
+.visitor-numbers
+{
+    
+    background:#fff;
+    padding: 2rem;
+    margin-bottom:4rem;
+    box-shadow: 0px 1rem 4rem rgba(0,0,0,.2);
+    transition: transform .5s ease;
+    cursor:pointer;
+    
+    &:hover
+    {
+        transform:translateY(-4px);
+    }
+
+    &__details
+    {
+        position: relative;
+        
+
+        [class*=fa-arrow]
+        {
+            position: absolute;
+            bottom:-5px;
+            right:2rem;
+            transform:translateY(-50%);
+        }
+
+         [class*=fa-user]
+        {
+           align-self: center;
+           margin-top:1rem;
+        }
+    }
+
+    &__title
+    {
+        font-size: 2.2rem;
+        font-weight: 500;
+        display: inline-block;
+    }
+
+  
+
+    &__figure
+    {
+        font-size: 2.5rem;
+        font-weight: 900;
+        display: block;
+    }
+
+    &__percentage-figures
+    {
+        border-top:1px solid #ccc;
+        margin-top:1rem;
+        padding-top:1rem;
+    }
+
+    &__percentage-figure
+    {
+        font-size: 1.5rem;
+        color:grey;
+        vertical-align: middle;
+        margin-left:1rem;
+    }
+}
